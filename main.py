@@ -31,8 +31,8 @@ def match():
 	threshold = 0.1
 	print res	
 	if res[0][0]>= threshold:
-	   os.system('/home/raj/tg/bin/telegram-cli -k server.pub -W -e "msg Phone_number As tha Plants are Alive.I have Switched ON the Motor..."')
-	   os.system('/home/raj/tg/bin/telegram-cli -k server.pub -W -e "send_photo Phone_number 4.jpg"')
+	   os.system('/home/tamizh/tg/bin/telegram-cli -k server.pub -W -e "msg Phone_number As tha Plants are Alive.I have Switched ON the Motor..."')
+	   os.system('/home/tamizh/tg/bin/telegram-cli -k server.pub -W -e "send_photo Phone_number 4.jpg"')
 	   print "match"
 	
 
